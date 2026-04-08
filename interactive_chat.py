@@ -28,6 +28,8 @@ def main(model_path, verbose=False, n_threads=16, n_gpu_layers=0):
         {"role": "system", "content": "You are a helpful, concise AI assistant."}
     ]
 
+    print("Chat session started. Terminate queries with \"/no_think\" to disable thinking."
+
     while True:
         try:
             user_input = input("\n>>> ")
