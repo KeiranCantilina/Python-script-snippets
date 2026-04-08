@@ -7,7 +7,7 @@ from llama_cpp import Llama
 from termcolor import cprint
 
 
-model_path = "/mnt/beegfs/cantilk/.cache/huggingface/hub/models--lmstudio-community--Qwen3-30B-A3B-GGUF/snapshots/98773a4c5f7f32199dd3a2a484deff0864a8d6f2/Qwen3-30B-A$
+model_path = "/mnt/beegfs/cantilk/.cache/huggingface/hub/models--lmstudio-community--Qwen3-30B-A3B-GGUF/snapshots/98773a4c5f7f32199dd3a2a484deff0864a8d6f2/Qwen3-30B-A3B-Q4_K_M.gguf"
 
 print_bot = lambda x: cprint(x, 'green', end='')
 
