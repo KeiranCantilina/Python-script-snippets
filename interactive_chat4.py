@@ -139,7 +139,7 @@ class AgentSession:
 # ------
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("model", type=Path, help="Path to GGUF model")
+    parser.add_argument("model", type=Path, nargs="?", default="/mnt/beegfs/cantilk/gpt-oss-120b-MXFP4-00001-of-00002.gguf", help="Path to GGUF model (default: %(default)s)")
     args = parser.parse_args()
 
     ALLOWED_ROOT.mkdir(exist_ok=True)
